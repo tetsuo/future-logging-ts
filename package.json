@@ -1,0 +1,22 @@
+{
+  "name": "@tetsuo/future-logging-ts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && tsc",
+    "test": "npm run build && tape lib/test/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fp-ts": "^2.6.2",
+    "fp-ts-fluture": "^0.6.5",
+    "logging-ts": "^0.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
